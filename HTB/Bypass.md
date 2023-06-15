@@ -9,7 +9,7 @@
 ![Ввод данных и остановка программы](https://github.com/logbead/CTF_write_ups/blob/main/HTB/pictures/bypass/2.PNG)
 
 <br>Перешел по адресу введенных данных
-![Дамп введенных данных](https://github.com/logbead/CTF_write_ups/blob/main/HTB/pictures/bypass/3.PNG)
+![Дамп введенных данных](https://github.com/logbead/CTF_write_ups/blob/main/HTB/pictures/bypass/3.png)
 
 <br>И просто просматривал хексы в надежде увидеть флаг. Я его нашел, он там появляется несколько раз и в разных кодировках (то есть в ascii будет так убого все высвечиваться, как на картинке, но флаг можно будет
 увидеть и выше, но в unicode один раз виден флаг, зато более отчетливо. В душе не чаю, зачем это говорю)
