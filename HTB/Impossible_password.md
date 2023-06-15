@@ -1,9 +1,9 @@
 Ну для начала прогоним через ltrace, можно, конечно через дебаггер провести и пароль тоже будет выведен, но я решил сделать так 
-![First_pass] (https://github.com/logbead/CTF_write_ups/blob/main/HTB/pictures/impossible_password/first_pass.PNG)
+![First_pass](https://github.com/logbead/CTF_write_ups/blob/main/HTB/pictures/impossible_password/first_pass.PNG)
 
 Естественно, второй раз выводиться через ltrace не будет. Покопавшись мы поймем, что следующее значение пароля будет рандомиться после ввода (в моем случае по адресу 0x40078d). 
 Затем мы видим, что введенное нами значение сравнивается с тем, что выдал рандом (test eax, eax). 
 В случае несовпадения, наша программа пропустит вызов функции по адресу 0х400978 (опять же, в моем случае), а там лежит наш флаг. 
 Следовательно, нам необходимо заменить je на jne. После этих действий нам будет выведен флаг
 
-![Second_check] (https://github.com/logbead/CTF_write_ups/blob/main/HTB/pictures/impossible_password/second_check.PNG)
+![Second_check](https://github.com/logbead/CTF_write_ups/blob/main/HTB/pictures/impossible_password/second_check.PNG)
