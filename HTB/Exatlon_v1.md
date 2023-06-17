@@ -50,8 +50,8 @@ d[33]=528
 d[34]=528
 d[35]=2000
 
-
-<pre>count=0
+<pre>
+count=0
 for i in range (0,36):
 	d[count]=d[count]/16
 	p=[int(d) for d in d]
