@@ -49,12 +49,11 @@ d[33]=528
 d[34]=528
 d[35]=2000
 
-l=16
 count=0
 for i in range (0,36):
-			d[count]=d[count]/l
-			p=[int(d) for d in d]
-			res=chr(p[count])
-			count+=1
-			print (res, end='', sep='')
+	d[count]=d[count]/16
+	p=[int(d) for d in d]
+	res=chr(p[count])
+	count+=1
+	print (res, end='', sep='')
 </pre>
