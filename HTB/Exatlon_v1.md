@@ -50,6 +50,7 @@ d[33]=528
 d[34]=528
 d[35]=2000
 
+<pre>
 count=0
 for i in range (0,36):
 	d[count]=d[count]/16
@@ -57,4 +58,4 @@ for i in range (0,36):
 	res=chr(p[count])
 	count+=1
 	print (res, end='', sep='')</pre>
-
+</pre>
