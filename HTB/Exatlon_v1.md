@@ -50,12 +50,11 @@ d[33]=528
 d[34]=528
 d[35]=2000
 
-<pre>
 count=0
 for i in range (0,36):
-	d[count]=d[count]/16
-	p=[int(d) for d in d]
-	res=chr(p[count])
-	count+=1
-	print (res, end='', sep='')</pre>
-</pre>
+<p style="margin-left: 50px;">	d[count]=d[count]/16</p>
+<p style="margin-left: 50px;">	p=[int(d) for d in d]</p>
+<p style="margin-left: 50px;">	res=chr(p[count])</p>
+<p style="margin-left: 50px;">	count+=1</p>
+<p style="margin-left: 50px;">	print (res, end='', sep='')</pre></p>
+
