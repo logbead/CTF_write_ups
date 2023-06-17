@@ -51,9 +51,9 @@ d[35]=2000
 
 count=0
 for i in range (0,36):
-	d[count]=d[count]/16
+<pre>	d[count]=d[count]/16
 	p=[int(d) for d in d]
 	res=chr(p[count])
 	count+=1
-	print (res, end='', sep='')
+	print (res, end='', sep='')</pre>
 </code>
