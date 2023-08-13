@@ -15,7 +15,7 @@
 ![101010](https://github.com/logbead/CTF_write_ups/blob/main/HTB/pictures/Encryption_bot/5.PNG)
 Далее в функции sub_13AB идет перевод в десятичную систему счисления 6-ти разрядных чисел
 ![sub_13AB](https://github.com/logbead/CTF_write_ups/blob/main/HTB/pictures/Encryption_bot/6.PNG)
-И в конце идет подставление полученного значения по индексу в строке
+<br>И в конце идет подставление полученного значения по индексу в строке
 ![alphabet](https://github.com/logbead/CTF_write_ups/blob/main/HTB/pictures/Encryption_bot/7.PNG)
 
 <br><br>В итоге, что мы имеем... программа сначала проверяет на количество символов, которые мы вводим, затем переводит данную строку в двоичный код по 8 разрядов и шифрует данный код по 6 разрядов.
