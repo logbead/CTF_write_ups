@@ -6,7 +6,7 @@
 <br>В первой функции мы видим проверку количества символов в строке. Она равна 27. Следовательно, мы должны вводить 27 символов.
 ![strlen](https://github.com/logbead/CTF_write_ups/blob/main/HTB/pictures/Encryption_bot/2.PNG)
 
-<br>Вторая функция имеет подфункцию. Сама функция выбирает крайний символ из строки строки.
+<br>Вторая функция имеет подфункцию. Сама функция выбирает крайний символ из строки.
 ![2](https://github.com/logbead/CTF_write_ups/blob/main/HTB/pictures/Encryption_bot/3.PNG)
 А подфункция переводит символ в двоичный код, сохраняя количество чисел в двоичной системе(8)
 ![10101010](https://github.com/logbead/CTF_write_ups/blob/main/HTB/pictures/Encryption_bot/4.PNG)
